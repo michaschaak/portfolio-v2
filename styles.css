@@ -1,0 +1,197 @@
+/* Fonts */
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('fonts/EBGaramond-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400 800;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'EB Garamond';
+  src: url('fonts/EBGaramond-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 400 800;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'XanhMono';
+  src: url('fonts/XanhMono-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'XanhMono';
+  src: url('fonts/XanhMono-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Variables */
+:root {
+  --color-text: #222;
+  --color-weak: #737373;
+  --color-bg: #fff7ba;
+  --color-accent: #0066ff;
+  --bodytext-size: 1.2rem;
+  --text-width: 50rem;
+  --weight-reg: 400;
+  --weight-bold: 600;
+  --glow-color: #ff5e00;
+
+}
+
+/* Base styles */
+body {
+  /* font-family: 'EB Garamond', Georgia, 'Times New Roman', Times, serif; */
+  font-family: 'XanhMono', 'Courier New', Courier, monospace;
+  /* font-family: 'Courier New', Courier, monospace; */
+  line-height: 1.5;
+  color: var(--color-text);
+  background: var(--color-bg);
+  margin: 2rem;
+  padding-bottom: 40rem;
+  font-weight: var(--weight-reg);
+  letter-spacing: -0.05rem;
+  /* max-width: var(--text-width); */
+  text-shadow: 0 0 3rem var(--glow-color);
+
+}
+
+b {
+  font-weight: var(--weight-bold);
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: var(--weight-bold);
+}
+h2 {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+p, h2 {
+  font-size: var(--bodytext-size);
+}
+/* p {
+  text-align: justify;
+} */
+@media (max-width: 45rem) {
+  p {
+    text-align: justify;
+  }
+}
+.facturatie-geg {
+  color: var(--color-weak);
+  margin-top: var(--bodytext-size);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+.email-address {
+  color: inherit;
+}
+
+
+/* Navigation */
+.navigation-container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  /* background: var(--color-bg); */
+  padding: 2rem 0 1rem;   /* top padding replaces the body's top margin */
+  margin-bottom: 1rem;
+}
+.nav-button {
+  all: unset;
+  font-family: inherit;
+  /* font-family: Helvetica, sans-serif; */
+  /* font-family: 'XanhMono', 'Courier New', Courier, monospace; */
+  font-size: var(--bodytext-size);
+  line-height: inherit;
+  max-width: var(--text-width);
+  cursor: pointer;
+  /* background-color: var(--color-bg); */
+
+}
+.nav-button:hover,
+.nav-button.active,
+a:hover {
+  text-decoration: underline;
+}
+.portrait-img {
+  max-width: 15rem;
+  margin-top: var(--bodytext-size);
+}
+
+/* Layout */
+html {
+  scrollbar-gutter: stable;
+}
+.content {
+  max-width: 50rem;
+  
+  margin: auto;
+}
+.tab[hidden] {
+  display: none;
+}
+.body-text-container {
+  max-width: var(--text-width);
+}
+
+.nav-icon {
+  max-height: var(--bodytext-size);
+  margin-top: 0.4rem;
+  margin-right: 2rem;
+}
+
+/* PORTFOLIO POSTS */
+.post-container {
+  max-width: var(--text-width);
+  margin-bottom: 5rem;
+}
+.post-title {
+  font-weight: 400;
+  /* font-style: italic; */
+  /* background-color: rgb(255, 237, 134); */
+}
+.post-properties {
+  display: flex;
+  gap: 2rem;
+  color: var(--color-weak);
+    /* margin-top: -0.5rem; */
+  margin-bottom: 0.5rem;
+  font-style: italic;
+}
+.post-links {
+  display:flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+.footer {
+  position: fixed;
+  bottom: 1rem;
+  background-color: var(--color-bg);
+}
