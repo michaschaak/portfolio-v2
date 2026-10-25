@@ -178,6 +178,58 @@ html {
   max-width: var(--text-width);
 }
 
+.post-cast,
+.post-crew {
+  list-style: none;
+  margin-top: 0rem;
+  font-size: var(--bodytext-size);
+
+}
+
+.post-cast .role,
+.post-crew .role {
+  /* color: var(--color-weak); */
+  /* font-style: italic; */
+  letter-spacing: -0.1rem;
+}
+
+.post-cast .name,
+.post-crew .name {
+  /* color: var(--color-weak); */
+  /* font-style: italic; */
+  font-weight: var(--weight-bold);
+}
+
+.post-credits {
+  margin-top: 0.5rem;
+}
+
+.post-credits summary {
+  font-size: var(--bodytext-size);
+  cursor: pointer;
+  list-style: none;
+}
+
+.post-cred-link-container {
+  max-width: 32rem;
+}
+
+.post-credits summary::-webkit-details-marker {
+  display: none;
+}
+
+.post-credits summary::before {
+  content: "+ ";
+}
+
+.post-credits[open] summary::before {
+  content: "– ";
+}
+
+.post-credits summary:hover {
+  text-decoration: underline;
+}
+
 .nav-icon {
   max-height: var(--bodytext-size);
   margin-top: 0.4rem;
@@ -201,8 +253,12 @@ html {
 
 .post-links {
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   margin-top: 0.5rem;
+  letter-spacing: -0.07rem;
+  text-transform: uppercase;
+  
 }
 
 .footer {

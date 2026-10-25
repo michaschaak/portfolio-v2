@@ -3,7 +3,7 @@
         "id": "",
         "title": "",
         "date": "",
-        "medium": "",
+        "tag": "",
         "genre": "",
         "info": "",
         "links": [
@@ -12,7 +12,14 @@
                 "url": ""
             }
         ],
-        "credits": [
+        "cast": [
+            {
+                "credit": "",
+                "firstname": "",
+                "lastname": ""
+            }
+        ],
+        "crew": [
             {
                 "credit": "",
                 "firstname": "",

@@ -3,7 +3,7 @@
         "id": "arno-schaak",
         "title": "De lotgevallen van ene Arno Schaak",
         "date": "2026-06-19",
-        "medium": "masterproef RITCS",
+        "tag": "masterproef RITCS",
         "genre": "audiofictie",
         "info": [
             "Arno Schaak, recent gediplomeerd <i>master of cerebral thought</i>, probeert werk te vinden na zijn proclamatie, maar de diefstal van zijn diploma zet een reeks ongelukkige gebeurtenissen in gang. Hij komt in aanvaring met de wet, sluit vriendschap met de koning van de onderwereld en verkent alternatieve loopbaanmogelijkheden.",
@@ -27,14 +27,87 @@
                 "url": "https://open.spotify.com/episode/0P895YviJXR6Fi9UhNbfpI?si=d7ee1c3625b9428b"
             }
         ],
-        "credits": [],
+        "cast": [
+            {
+                "credit": "Arno Schaak",
+                "firstname": "Sebastiaan",
+                "lastname": "Distelmans"
+            },
+            {
+                "credit": "Malachias J. Van Rotteweelde",
+                "firstname": "Rokus",
+                "lastname": "Sadée"
+            },
+            {
+                "credit": "Eva De Tickt",
+                "firstname": "Lotte",
+                "lastname": "De Keyzer"
+            },
+            {
+                "credit": "Sint-Michaël",
+                "firstname": "Eran",
+                "lastname": "De Vlam"
+            },
+            {
+                "credit": "Skibelonian Sam",
+                "firstname": "Benjamin",
+                "lastname": "De Vos"
+            },
+            {
+                "credit": "Erwin Vanderhellemeerschaerts",
+                "firstname": "Tijn",
+                "lastname": "Sadée"
+            },
+            {
+                "credit": "voice-over, vrouw in lift",
+                "firstname": "Fleur",
+                "lastname": "Sterckx"
+            },
+            {
+                "credit": "radiopresentator",
+                "firstname": "Tobias",
+                "lastname": "Huycke"
+            },
+            {
+                "credit": "hulpagent",
+                "firstname": "Nevan",
+                "lastname": "Wenzlawski"
+            },
+            {
+                "credit": "Figurant",
+                "firstname": "Kaat",
+                "lastname": "Leën"
+            }
+        ],
+        "crew": [
+            {
+                "credit": "script, regie, montage, muziek, techniek",
+                "firstname": "Sebastiaan",
+                "lastname": "Distelmans"
+            },
+            {
+                "credit": "promotor",
+                "firstname": "Didier",
+                "lastname": "Volckaert"
+            },
+            {
+                "credit": "advies, muziek",
+                "firstname": "Rokus",
+                "lastname": "Sadée"
+            },
+            {
+                "credit": "techniek",
+                "firstname": "Fleur",
+                "lastname": "Sterckx"
+            }
+        ],
         "images": []
     },
     {
         "id": "gelmelslot",
         "title": "De wachters van het Gelmelslot",
         "date": "2026-06-13",
-        "medium": "",
+        "tag": "",
         "genre": "documentaire",
         "info": [
             "Podcastmaker Wederik De Backer en stagiair Bas Distelmans gingen in gesprek met medewerkers, vrijwilligers en mensen in detentie. Aan de hand van vijf centrale thema’s – de metsersopleiding, de voetbalploeg ‘Gelmelboys’, de kerngroep, de vrouwenafdeling en de boerderij – brengen zij verhalen die uniek zijn aan de gevangenis. Vrijwilligster Lut, die activiteiten organiseert op de vrouwenafdeling, kreeg de eer om de podcast aan elkaar te praten.",
@@ -50,7 +123,25 @@
                 "url": "https://derodeantraciet.be/actueel/podcast-de-wachters-van-het-gelmelslot-geeft-een-blik-achter-de-poorten-van-de-gevangenis/"
             }
         ],
-        "credits": [],
-        "images": []
+        "cast": [
+            {
+                "credit": "",
+                "firstname": "",
+                "lastname": ""
+            }
+        ],
+        "crew": [
+            {
+                "credit": "",
+                "firstname": "",
+                "lastname": ""
+            }
+        ],
+        "images": [
+            {
+                "file": "",
+                "alt": ""
+            }
+        ]
     }
 ]
