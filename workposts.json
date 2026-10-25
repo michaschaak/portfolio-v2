@@ -1,0 +1,56 @@
+[
+    {
+        "id": "arno-schaak",
+        "title": "De lotgevallen van ene Arno Schaak",
+        "date": "2026-06-19",
+        "medium": "masterproef RITCS",
+        "genre": "audiofictie",
+        "info": [
+            "Arno Schaak, recent gediplomeerd <i>master of cerebral thought</i>, probeert werk te vinden na zijn proclamatie, maar de diefstal van zijn diploma zet een reeks ongelukkige gebeurtenissen in gang. Hij komt in aanvaring met de wet, sluit vriendschap met de koning van de onderwereld en verkent alternatieve loopbaanmogelijkheden.",
+            "De lotgevallen van ene Arno Schaak werd op 8 september 2026 uitgezonden op Zandman met Joris Vergeyle (VRT Radio 1)."
+        ],
+        "links": [
+            {
+                "label": "VRT Max",
+                "url": "https://www.vrt.be/vrtmax/luister/radio/z/zandman~11-100/zandman~11-39873-0/"
+            },
+            {
+                "label": "YouTube (EN SUBS)",
+                "url": "https://youtu.be/YnR5ZHOTQJI"
+            },
+            {
+                "label": "Apple Podcasts",
+                "url": "https://podcasts.apple.com/be/podcast/sweet-spot-ritcs/id1671205890?i=1000774377038"
+            },
+            {
+                "label": "Spotify",
+                "url": "https://open.spotify.com/episode/0P895YviJXR6Fi9UhNbfpI?si=d7ee1c3625b9428b"
+            }
+        ],
+        "credits": [],
+        "images": []
+    },
+    {
+        "id": "gelmelslot",
+        "title": "De wachters van het Gelmelslot",
+        "date": "2026-06-13",
+        "medium": "",
+        "genre": "documentaire",
+        "info": [
+            "Podcastmaker Wederik De Backer en stagiair Bas Distelmans gingen in gesprek met medewerkers, vrijwilligers en mensen in detentie. Aan de hand van vijf centrale thema’s – de metsersopleiding, de voetbalploeg ‘Gelmelboys’, de kerngroep, de vrouwenafdeling en de boerderij – brengen zij verhalen die uniek zijn aan de gevangenis. Vrijwilligster Lut, die activiteiten organiseert op de vrouwenafdeling, kreeg de eer om de podcast aan elkaar te praten.",
+            "De wachters van het Gelmelslot ging in première in de gevangenis van Hoogstraten en is beluisterbaar op Spotify."
+        ],
+        "links": [
+            {
+                "label": "Spotify",
+                "url": "https://open.spotify.com/show/033rqfp6nqn8XGzdZBGSxR?si=64295e952d2f414b"
+            },
+            {
+                "label": "Website",
+                "url": "https://derodeantraciet.be/actueel/podcast-de-wachters-van-het-gelmelslot-geeft-een-blik-achter-de-poorten-van-de-gevangenis/"
+            }
+        ],
+        "credits": [],
+        "images": []
+    }
+]

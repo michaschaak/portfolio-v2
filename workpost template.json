@@ -1,0 +1,29 @@
+[
+    {
+        "id": "",
+        "title": "",
+        "date": "",
+        "medium": "",
+        "genre": "",
+        "info": "",
+        "links": [
+            {
+                "label": "",
+                "url": ""
+            }
+        ],
+        "credits": [
+            {
+                "credit": "",
+                "firstname": "",
+                "lastname": ""
+            }
+        ],
+        "images": [
+            {
+                "file": "",
+                "alt": ""
+            }
+        ]
+    }
+]
