@@ -195,5 +195,5 @@ html {
 .footer {
   position: fixed;
   bottom: 1rem;
-  background-color: var(--color-bg);
+  /* background-color: var(--color-bg); */
 }
