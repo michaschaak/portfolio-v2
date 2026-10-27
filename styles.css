@@ -158,8 +158,9 @@ a:hover,
 }
 
 .language-button {
-  font-style: italic;
+  /* font-style: italic; */
   margin-left: auto;
+  /* color: var(--color-accent); */
 }
 
 
@@ -261,19 +262,27 @@ html {
   gap: 1rem;
   color: var(--color-weak);
   /* margin-top: -0.5rem; */
-  margin-bottom: 0.5rem;
+  /* margin-bottom: 0.5rem; */
   font-style: italic;
 }
 
 .post-language {
   display: flex;
   gap: 0.3rem;
-  margin-top: 0.5rem;
+  /* margin-top: 0.6rem; */
   color: var(--color-weak);
 }
 .language-icon svg {
   stroke: var(--color-weak);
   margin-top: 0.2rem;
+}
+
+.props-and-lang{
+  display: flex;
+}
+
+.lang-placed {
+  margin-left: auto;
 }
 
 .post-links {

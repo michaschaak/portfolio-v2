@@ -96,8 +96,8 @@
         ],
         "crew": [
             {
-                "credit": "script, regie, montage, muziek, opnames",
-                "credit_en": "script, direction, editing, music, recording",
+                "credit": "script, monteur, componist, techniek",
+                "credit_en": "script, editing, composer, engineer",
                 "firstname": "Sebastiaan",
                 "lastname": "Distelmans"
             },

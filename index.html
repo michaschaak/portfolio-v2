@@ -1,10 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="nl">
 
 <head>
-    <link rel="stylesheet" href="styles.css">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sebastiaan Distelmans</title>
+    <meta name="description" content="Website en portfolio van Sebastiaan Distelmans.">
+    <meta name="keywords"
+        content="Sebastiaan Distelmans, Bas Distelmans, audio, podcast, audiomaker, portfolio, musician, composer, audio engineer, Bas, Sebastiaan">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -17,80 +21,77 @@
             <button class="nav-button" data-tab="home"><img src="images/hond-verylowreso.png" class="nav-icon"></button>
             <button class="nav-button" data-tab="werk" data-nl="werk" data-en="work">werk</button>
             <button class="nav-button" data-tab="info">info</button>
-            <button class="language-button" onclick="toggleLang()" data-nl="English" data-en="Nederlands">english</button>
+            <button class="language-button" onclick="toggleLang()" data-nl="English"
+                data-en="Nederlands">english</button>
             <!-- </div> -->
         </nav>
-    
-    <!-- <div class="lang-button-container"> -->
-    <!-- </div> -->
-    <div class="page-container">
-        <section id="home" class="tab">
-            <div class="body-text-container" id="bio-nl">
-                <p>
-                    Sebastiaan Distelmans (Bas) is een audiomaker en muzikant gebaseed in Brussel.
-                    In 2026 behaalde hij een master of arts in radio aan het RITCS, en zijn masterproef
-                    <a href=""></a>
-                    <b><i>De lotgevallen van ene Arno Schaak</i></b>
-                    werd geselecteerd voor uitzending op Zandman (VRT Radio 1).
-                    Tijdens zijn stage werkte hij mee aan de podcast
-                    <a href="https://www.knack.be/nieuws/belgie/justitie-belgie-belgisch-recht-rechtszaken-hervorming-justitie/alpha/"
-                        target="_blank"><b><i>Alpha</i></b></a>
-                    van Wederik De Backer en Lieselot Mariën, en samen met Wederik maakte hij ook <a
-                        href="https://open.spotify.com/show/033rqfp6nqn8XGzdZBGSxR?si=aeb56fe39cc54b8a"
-                        target="_blank"><b><i>De wachters van het Gelmelslot:</i></b></a>
-                    een documentaire podcastreeks over het leven in de gevangenis van Hoogstraten (PSC
-                    Hoogstraten).<br>
-                </p>
-            </div>
-            <div class="body-text-container" id="bio-en">
-                <p>
-                    Sebastiaan Distelmans (Bas) is an audio maker and musician based in Brussels.
-                    In 2026 he earned a master of arts in radio at RITCS, and his master's thesis
-                    <a href=""></a>
-                    <b><i>The Ordeals of a Certain Arno Schaak</i></b>
-                    was selected for broadcast on Zandman (VRT Radio 1).
-                    During his internship he worked on the podcast
-                    <a href="https://www.knack.be/nieuws/belgie/justitie-belgie-belgisch-recht-rechtszaken-hervorming-justitie/alpha/"
-                        target="_blank"><b><i>Alpha</i></b></a>
-                    by Wederik De Backer and Lieselot Mariën, published by Knack and NTR.
-                    Together with Wederik he also made <a
-                        href="https://open.spotify.com/show/033rqfp6nqn8XGzdZBGSxR?si=aeb56fe39cc54b8a"
-                        target="_blank"><b><i>The Guards of Gelmel Castle:</i></b></a>
-                    a documentary podcast series about daily life in Hoogstraten prison (PSC
-                    Hoogstraten).<br>
-                </p>
-            </div>
-        </section>
 
-        <section id="werk" class="tab" hidden>
-            <div id="posts"></div>
-        </section>
+        <!-- <div class="lang-button-container"> -->
+        <!-- </div> -->
+        <div class="page-container">
+            <section id="home" class="tab">
+                <div class="body-text-container" id="bio-nl">
+                    <p>
+                        Ik ben Sebastiaan Distelmans (Bas), audiomaker.
+                        In 2026 behaalde ik een Master of Arts in radio aan het RITCS, en mijn masterproef
+
+                        <b><i>De lotgevallen van ene Arno Schaak</i></b>
+
+                        werd geselecteerd voor uitzending op <i>Zandman</i> (VRT Radio 1).
+                        Tijdens mijn stage werkte ik mee aan de podcast
+                        <b><i>Alpha</i></b>
+                        van Wederik De Backer en Lieselot Mariën, en samen met Wederik maakte ik <b><i>De wachters van het Gelmelslot:</i></b>
+                        een documentaire podcastreeks over het leven in de gevangenis van Hoogstraten (PSC
+                        Hoogstraten).<br>
+
+                    </p>
+                </div>
+                <div class="body-text-container" id="bio-en">
+                    <p>
+                        I'm Sebastiaan Distelmans (Bas), an audio maker.
+                        In 2026 I earned a Master of Arts in radio at RITCS, and my master's thesis
+
+                        <b><i>The Ordeals of a Certain Arno Schaak</i></b>
+
+                        was selected for broadcast on <i>Zandman</i> (VRT Radio 1).
+                        During my internship I worked on the podcast
+                        <b><i>Alpha</i></b>
+                        by Wederik De Backer and Lieselot Mariën, and together with Wederik I made <b><i>The Guards of Gelmel Castle:</i></b>
+                        a documentary podcast series about life in Hoogstraten prison (PSC
+                        Hoogstraten).<br>
+                    </p>
+                </div>
+            </section>
+
+            <section id="werk" class="tab" hidden>
+                <div id="posts"></div>
+            </section>
 
 
-        <section id="praktijk" class="tab" hidden>
-            praktijk
-        </section>
-        <section id="info" class="tab" hidden>
-            <div class="body-text-container">
-                <h1>Sebastiaan Distelmans</h1>
-                <p></p>
-                <p class="facturatie-geg">
-                    <a href="mailto:sebastiaan.distelmans@ik.me"
-                        class="email-address">sebastiaan.distelmans@ik.me</a><br>
-                    Klein Raamstraat 6, 2221 Booischot <br>
-                    BE1044.061.676
-                </p>
-                <img src="images/portfolio-foto-small.jpeg" class="portrait-img">
-            </div>
-        </section>
+            <section id="praktijk" class="tab" hidden>
+                praktijk
+            </section>
+            <section id="info" class="tab" hidden>
+                <div class="body-text-container">
+                    <h1>Sebastiaan Distelmans</h1>
+                    <p></p>
+                    <p class="facturatie-geg">
+                        <a href="mailto:sebastiaan.distelmans@ik.me"
+                            class="email-address">sebastiaan.distelmans@ik.me</a><br>
+                        Klein Raamstraat 6, 2221 Booischot <br>
+                        BE1044.061.676
+                    </p>
+                    <img src="images/portfolio-foto-small.jpeg" class="portrait-img">
+                </div>
+            </section>
 
-    </div>
-    <div class="footer">
-        <p>
-            Sebastiaan Distelmans, 2026
+        </div>
+        <div class="footer">
+            <p>
+                Sebastiaan Distelmans, 2026
 
-        </p>
-    </div>
+            </p>
+        </div>
     </div>
 
 

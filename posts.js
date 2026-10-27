@@ -72,11 +72,13 @@ function renderPosts() {
             return `
           <div class="post-container">
             <div class="post-toptext">
-              <h1 class="post-title">${p.title}</h1>
-              <div class="post-properties">${props}</div>
+            <h1 class="post-title">${p.title}</h1>
+            <div class="props-and-lang">
+            <span class="post-properties">${props}</span>
+            <span class="lang-placed">${langBlock}</span>
+            </div>
               <div class="post-more-info">
 ${info}
-${langBlock}
               <div class="post-cred-link-container">
 ${creditList(p.cast, "post-cast", "cast")}
 ${creditList(p.crew, "post-crew", "crew")}
