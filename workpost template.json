@@ -4,8 +4,20 @@
         "title": "",
         "date": "",
         "tag": "",
-        "genre": "",
+        "genre": [
+            ""
+        ],
+        "taal": "",
         "info": "",
+        "en": {
+            "title": "",
+            "tag": "",
+            "genre": [
+                ""
+            ],
+            "taal": "",
+            "info": []
+        },
         "links": [
             {
                 "label": "",

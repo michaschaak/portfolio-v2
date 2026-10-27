@@ -4,18 +4,33 @@
         "title": "De lotgevallen van ene Arno Schaak",
         "date": "2026-06-19",
         "tag": "masterproef RITCS",
-        "genre": "audiofictie",
+        "genre": [
+            "audiofictie"
+        ],
+        "taal": "Nederlands",
         "info": [
             "Arno Schaak, recent gediplomeerd <i>master of cerebral thought</i>, probeert werk te vinden na zijn proclamatie, maar de diefstal van zijn diploma zet een reeks ongelukkige gebeurtenissen in gang. Hij komt in aanvaring met de wet, sluit vriendschap met de koning van de onderwereld en verkent alternatieve loopbaanmogelijkheden.",
-            "De lotgevallen van ene Arno Schaak werd op 8 september 2026 uitgezonden op Zandman met Joris Vergeyle (VRT Radio 1)."
+            "<i>De lotgevallen van ene Arno Schaak</i> werd op 8 september 2026 uitgezonden op Zandman met Joris Vergeyle (VRT Radio 1)."
         ],
+        "en": {
+            "title": "The Ordeals of a Certain Arno Schaak",
+            "tag": "master thesis RITCS",
+            "genre": [
+                "audio-drama"
+            ],
+            "taal": "Dutch",
+            "info": [
+                "Arno Schaak, a recent graduate with a ‘Master of Cerebral Thought’, is trying to find work following his graduation, but the theft of his degree certificate sets off a series of unfortunate events. He finds himself in trouble with the law, befriends the king of the underworld and explores alternative career options.",
+                "<i>The Ordeals of a Certain Arno Schaak</i> was broadcast on September 8 2026 on Zandman, hosted by Joris Vergeyle (VRT Radio 1)."
+            ]
+        },
         "links": [
             {
                 "label": "VRT Max",
                 "url": "https://www.vrt.be/vrtmax/luister/radio/z/zandman~11-100/zandman~11-39873-0/"
             },
             {
-                "label": "YouTube (EN SUBS)",
+                "label": "YouTube (Subtitled)",
                 "url": "https://youtu.be/YnR5ZHOTQJI"
             },
             {
@@ -81,22 +96,26 @@
         ],
         "crew": [
             {
-                "credit": "script, regie, montage, muziek, techniek",
+                "credit": "script, regie, montage, muziek, opnames",
+                "credit_en": "script, direction, editing, music, recording",
                 "firstname": "Sebastiaan",
                 "lastname": "Distelmans"
             },
             {
                 "credit": "promotor",
+                "credit_en": "supervisor",
                 "firstname": "Didier",
                 "lastname": "Volckaert"
             },
             {
                 "credit": "advies, muziek",
+                "credit_en": "advice, music",
                 "firstname": "Rokus",
                 "lastname": "Sadée"
             },
             {
-                "credit": "techniek",
+                "credit": "opnames",
+                "credit_en": "recording",
                 "firstname": "Fleur",
                 "lastname": "Sterckx"
             }
@@ -107,12 +126,27 @@
         "id": "gelmelslot",
         "title": "De wachters van het Gelmelslot",
         "date": "2026-06-13",
-        "tag": "",
-        "genre": "audiodocumentaire",
+        "tag": "gevangenis Hoogstraten",
+        "genre": [
+            "audiodocumentaire"
+        ],
+        "taal": "Nederlands",
         "info": [
             "Podcastmaker Wederik De Backer en stagiair Bas Distelmans gingen in gesprek met medewerkers, vrijwilligers en mensen in detentie. Aan de hand van vijf centrale thema’s – de metsersopleiding, de voetbalploeg ‘Gelmelboys’, de kerngroep, de vrouwenafdeling en de boerderij – brengen zij verhalen die uniek zijn aan de gevangenis. Vrijwilligster Lut, die activiteiten organiseert op de vrouwenafdeling, kreeg de eer om de podcast aan elkaar te praten.",
-            "De wachters van het Gelmelslot ging in première in de gevangenis van Hoogstraten en is beluisterbaar op Spotify."
+            "<i>De wachters van het Gelmelslot</i> ging in première in de gevangenis van Hoogstraten en is beluisterbaar op Spotify."
         ],
+        "en": {
+            "title": "The Guards of Gelmel Castle",
+            "tag": "Hoogstraten Prison",
+            "genre": [
+                "audio documentary"
+            ],
+            "taal": "Dutch",
+            "info": [
+                "Podcast creator Wederik De Backer and intern Bas Distelmans spoke with staff members, volunteers, and inmates. Focusing on five central themes—the masonry training program, the ‘Gelmelboys’ soccer team, the core group, the women’s wing, and the farm—they share stories that are unique to the prison. Volunteer Lut, who organizes activities in the women’s wing, had the honor of serving as the podcast’s host.",
+                "<i>The Guards of Gelmel Castle</i> premiered at the Hoogstraten prison and is available on Spotify."
+            ]
+        },
         "links": [
             {
                 "label": "Spotify",
@@ -121,6 +155,62 @@
             {
                 "label": "Website",
                 "url": "https://derodeantraciet.be/actueel/podcast-de-wachters-van-het-gelmelslot-geeft-een-blik-achter-de-poorten-van-de-gevangenis/"
+            }
+        ],
+        "cast": [
+            {
+                "credit": "",
+                "firstname": "",
+                "lastname": ""
+            }
+        ],
+        "crew": [
+            {
+                "credit": "",
+                "firstname": "",
+                "lastname": ""
+            }
+        ],
+        "images": [
+            {
+                "file": "",
+                "alt": ""
+            }
+        ]
+    },
+    {
+        "id": "alpha",
+        "title": "Alpha",
+        "date": "2026-05-06",
+        "tag": "stage",
+        "genre": [
+            "podcast",
+            "documentaire"
+        ],
+        "taal": "Nederlands",
+        "info": "Tijdens een stage bij Wederik De Backer heb ik meegewerkt aan de <i>Alpha,</i> een true-crimepodcast van Lieselot Mariën en Wederik. Ik deed montage, geluidsopnamen, figuratie en sound design voor de podcast, en was geluidsman voor de bijbehorende kortfilm. Alpha is een productie van NTR en Autres Directions.",
+        "en": {
+            "title": "Alpha",
+            "tag": "internship",
+            "genre": [
+                "podcast,",
+                "documentary,"
+            ],
+            "taal": "Dutch",
+            "info": "During an internship with Wederik De Backer, I worked on <i>Alpha,</i> a true-crime podcast by Lieselot Mariën and Wederik. I handled editing, sound recording, background acting, and sound design for the podcast, and served as sound engineer for the accompanying short film. <i>Alpha,</i> is a production of NTR and Autres Directions."
+        },
+        "links": [
+            {
+                "label": "info",
+                "url": "https://www.autresdirections.nl/projecten/podcast-alpha-portretteert-undercoveragenten"
+            },
+            {
+                "label": "Apple Podcasts",
+                "url": "https://podcasts.apple.com/be/podcast/alpha/id1895258139"
+            },
+            {
+                "label": "Spotify",
+                "url": "https://open.spotify.com/show/6gPHtIoIKecP74AtiEQ2s5?si=4bb3438399cf490e"
             }
         ],
         "cast": [
