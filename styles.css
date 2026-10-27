@@ -59,6 +59,7 @@ body {
   /* font-family: 'EB Garamond', Georgia, 'Times New Roman', Times, serif; */
   font-family: 'XanhMono', 'Courier New', Courier, monospace;
   /* font-family: 'Courier New', Courier, monospace; */
+  /* font-family: Helvetica, sans-serif; */
   line-height: 1.5;
   color: var(--color-text);
   background: var(--color-bg);
