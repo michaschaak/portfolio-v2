@@ -259,7 +259,7 @@ html {
 .post-properties {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0 1rem;
   color: var(--color-weak);
   /* margin-top: -0.5rem; */
   /* margin-bottom: 0.5rem; */
@@ -268,7 +268,7 @@ html {
 
 .post-language {
   display: flex;
-  gap: 0.3rem;
+  gap: 0 0.3rem;
   /* margin-top: 0.6rem; */
   color: var(--color-weak);
 }
@@ -288,7 +288,7 @@ html {
 .post-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  gap: 0 1rem;
   margin-top: 0.5rem;
   letter-spacing: -0.07rem;
   text-transform: uppercase;
