@@ -233,5 +233,151 @@
                 "alt": ""
             }
         ]
+    },
+    {
+        "id": "melodica-soprano",
+        "title": "Melodica Soprano",
+        "date": "2025-12-15",
+        "tag": "compositie",
+        "genre": [
+            "geluidskunst"
+        ],
+        "taal": "",
+        "info": [
+            "Dit werk werd eerst vertoond in quadrafonische opstelling tijdens de ‘Nacht van het Luisteren’ van VRT Radio 1 op het STUK in Leuven. Hier beluisterbaar is een stereo-downmix. Ik maakte het werk tijdens een residentieweek in het STUK onder begeleiding van Aurélie Nyirabikali Lierman en Jeroen Vandesande."
+        ],
+        "en": {
+            "title": "Melodica Soprano",
+            "tag": "composition",
+            "genre": [
+                "sound art"
+            ],
+            "taal": "",
+            "info": [
+                "This piece was first presented in a quadraphonic setup during VRT Radio 1’s ‘Nacht van het Luisteren’ (Night of Listening) at STUK in Leuven. What you can listen to here is a stereo downmix. I made the piece during a residency week at STUK, under the guidance of Aurélie Nyirabikali Lierman and Jeroen Vandesande."
+            ]
+        },
+        "links": [],
+        "cast": [],
+        "crew": [
+            {
+                "credit": "componist, maker",
+                "credit_en": "composer, maker",
+                "firstname": "Sebastiaan",
+                "lastname": "Distelmans"
+            },
+            {
+                "credit": "docent",
+                "credit_en": "supervisor",
+                "firstname": "Aurélie Nyirabikali",
+                "lastname": "Lierman"
+            },
+            {
+                "credit": "docent",
+                "credit_en": "supervisor",
+                "firstname": "Jeroen",
+                "lastname": "Vandesande"
+            }
+        ],
+        "images": []
+    },
+    {
+        "id": "broekzenne",
+        "title": "Broekzenne",
+        "date": "2025-06-01",
+        "tag": "studentenwerk RITCS",
+        "genre": [
+            "audiofictie"
+        ],
+        "taal": "Nederlands",
+        "info": [
+            "Erwin Knaep heeft per abuis twaalfduizend euro overgeschreven naar Broekzenne – een dystopische citadel in de asfalten woestijn die ooit Brussel heette. Hij wil het allemaal terug, en is niet tot compromissen bereid. Heeft hij wat het vergt om zijn geld terug te krijgen?"
+        ],
+        "en": {
+            "title": "Broekzenne",
+            "tag": "student work RITCS",
+            "genre": [
+                "audio-drama"
+            ],
+            "taal": "Dutch",
+            "info": [
+                "Erwin Knaep has accidentally transferred twelve thousand euros to Broekzenne – a dystopian citadel in the asphalt desert that was once called Brussels. He wants it all back and is not willing to compromise. Does he have what it takes to get his money back?"
+            ]
+        },
+        "links": [
+            {
+                "label": "Radio Fantome",
+                "url": "https://radio-fantome.be/shows/broekzenne-sebastiaan-distelmans-ritsc/"
+            }
+        ],
+        "cast": [
+            {
+                "credit": "Erwin Knaep",
+                "firstname": "Eran",
+                "lastname": "De Vlam"
+            },
+            {
+                "credit": "Junior",
+                "firstname": "Timo",
+                "lastname": "Sterckx"
+            },
+            {
+                "credit": "verteller",
+                "firstname": "Fleur",
+                "lastname": "Sterckx"
+            },
+            {
+                "credit": "Adelaar",
+                "firstname": "Rokus",
+                "lastname": "Sadée"
+            },
+            {
+                "credit": "Malachias J. Van Heindonk",
+                "firstname": "Sebastiaan",
+                "lastname": "Distelmans"
+            },
+            {
+                "credit": "callcenter operator",
+                "firstname": "Nevan",
+                "lastname": "Wenzlawski"
+            },
+            {
+                "credit": "barman",
+                "firstname": "Jules",
+                "lastname": "Daems"
+            },
+            {
+                "credit": "Fluisterasfalt",
+                "firstname": "Sebastiaan",
+                "lastname": "Distelmans"
+            }
+        ],
+        "crew": [
+            {
+                "credit": "scenario, regie, montage",
+                "credit_en": "script, direction, editing",
+                "firstname": "Sebastiaan",
+                "lastname": "Distelmans"
+            },
+            {
+                "credit": "diegetische muziek",
+                "credit_en": "diegetic music",
+                "firstname": "ROTWRLD.",
+                "lastname": ""
+            },
+            {
+                "credit": "docent",
+                "credit_en": "supervisor",
+                "firstname": "Jeroen",
+                "lastname": "Vandesande"
+            },
+            {
+                "credit": "docent",
+                "credit_en": "supervisor",
+                "firstname": "Luc",
+                "lastname": "Haekens"
+            }
+        ],
+        "images": []
     }
 ]
