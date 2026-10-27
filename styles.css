@@ -166,7 +166,7 @@ a:hover,
 
 .portrait-img {
   /* max-width: 15rem; */
-  max-width: 45rem;
+  max-width: min(45rem, 100%);
   /* margin: auto; */
   margin-top: var(--bodytext-size);
 }
