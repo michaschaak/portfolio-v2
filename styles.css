@@ -171,6 +171,10 @@ a:hover,
   margin-top: var(--bodytext-size);
 }
 
+sub {
+  color: var(--color-weak);
+}
+
 /* Layout */
 html {
   scrollbar-gutter: stable;
