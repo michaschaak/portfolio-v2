@@ -135,7 +135,7 @@
 /* Variables */
 :root {
   --color-text: #000000;
-  --color-weak: #6a6a6a;
+  --color-weak: #535353;
   --color-bg: #ffffff;
   --color-link: #0066ff;
   --bodytext-size: 1rem;
@@ -337,6 +337,8 @@ html {
   }
 }
 
+
+
 .post-cast .name,
 .post-crew .name {
   /* color: var(--color-weak); */
@@ -418,7 +420,7 @@ html {
 
 .language-icon svg {
   stroke: var(--color-weak);
-  margin-top: -0.1rem;
+  margin-top: 0.14rem;
 }
 
 .props-and-lang {
