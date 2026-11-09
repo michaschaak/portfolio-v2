@@ -13,11 +13,10 @@ function formatDate(iso) {
 function creditList(arr, cls, label) {
     const rows = (arr || [])
         .filter(c => c.firstname || c.lastname)
-        .map(c => `<li><span class="role">${lang === "en" && c.credit_en ? c.credit_en : c.credit} - </span><span class="name">${c.firstname} ${c.lastname}</span></li>`)
-        .join("");
+.map(c => `<li><span class="role">${lang === "en" && c.credit_en ? c.credit_en : c.credit}</span><span class="dash">-</span><span class="name">${c.firstname} ${c.lastname}</span></li>`)        .join("");
     return rows
         ? `<details class="post-credits">
-         <summary>${label}</summary>
+         <summary><p>${label}</p></summary>
          <ul class="${cls}">${rows}</ul>
        </details>`
         : "";

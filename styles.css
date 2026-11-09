@@ -31,6 +31,98 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'LibreFranklin';
+  src: url('fonts/LibreFranklin-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'LibreFranklin';
+  src: url('fonts/LibreFranklin-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* NIMBUS SANS */
+
+@font-face {
+  font-family: 'NimbusSans';
+  src: url('fonts/nimbus/NimbusSans-Regular.woff');
+  font-style: normal;
+  font-weight: 400;
+  font-width: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NimbusSans';
+  src: url('fonts/nimbus/NimbusSans-Bold.woff');
+  font-style: normal;
+  font-weight: 700;
+  font-width: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NimbusSans';
+  src: url('fonts/nimbus/NimbusSans-Italic.woff');
+  font-style: italic;
+  font-weight: 400;
+  font-width: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NimbusSans';
+  src: url('fonts/nimbus/NimbusSans-BoldItalic.woff');
+  font-style: italic;
+  font-weight: 700;
+  font-width: normal;
+  font-display: swap;
+}
+
+/* NIMBUS NARROW */
+
+@font-face {
+  font-family: 'NimbusSans';
+  src: url('fonts/nimbus/NimbusSansNarrow-Regular.woff');
+  font-style: normal;
+  font-weight: 400;
+  font-width: condensed;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NimbusSans';
+  src: url('fonts/nimbus/NimbusSansNarrow-Bold.woff');
+  font-style: normal;
+  font-weight: 700;
+  font-width: condensed;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NimbusSans';
+  src: url('fonts/nimbus/NimbusSansNarrow-Oblique.woff');
+  font-style: italic;
+  font-weight: 400;
+  font-width: condensed;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'NimbusSans';
+  src: url('fonts/nimbus/NimbusSansNarrow-BoldOblique.woff');
+  font-style: italic;
+  font-weight: 700;
+  font-width: condensed;
+  font-display: swap;
+}
+
 /* Reset */
 *,
 *::before,
@@ -43,13 +135,14 @@
 /* Variables */
 :root {
   --color-text: #000000;
-  --color-weak: #bd2121;
-  --color-bg: #fff7ba;
-  --color-accent: #0066ff;
-  --bodytext-size: 1.2rem;
+  --color-weak: #6a6a6a;
+  --color-bg: #ffffff;
+  --color-link: #0066ff;
+  --bodytext-size: 1rem;
+  --sans-size: 0.9rem;
   --text-width: 50rem;
   --weight-reg: 400;
-  --weight-bold: 600;
+  --weight-bold: 700;
   --glow-color: #ff9100;
 
 }
@@ -57,19 +150,38 @@
 /* Base styles */
 body {
   /* font-family: 'EB Garamond', Georgia, 'Times New Roman', Times, serif; */
-  font-family: 'XanhMono', 'Courier New', Courier, monospace;
+  /* font-family: 'XanhMono', 'Courier New', Courier, monospace; */
+  /* font-family: 'LibreFranklin'; */
   /* font-family: 'Courier New', Courier, monospace; */
-  /* font-family: Helvetica, sans-serif; */
-  line-height: 1.5;
+  /* line-height: 1.5; */
   color: var(--color-text);
   background: var(--color-bg);
   margin: 2rem;
   padding-bottom: 40rem;
   font-weight: var(--weight-reg);
-  letter-spacing: -0.05rem;
+  /* letter-spacing: -0.05rem; */
   /* max-width: var(--text-width); */
-  text-shadow: 0 0 3rem var(--glow-color);
+  /* text-shadow: 0 0 3rem var(--glow-color); */
 
+}
+
+p {
+  font-family: 'EB Garamond';
+  font-size: var(--bodytext-size);
+}
+
+h1,
+h2,
+li,
+sub {
+  font-family: 'NimbusSans', Helvetica, sans-serif;
+  letter-spacing: -0.01rem;
+}
+
+h2,
+li {
+  font-size: var(--sans-size);
+  line-height: 1.2rem;
 }
 
 b {
@@ -77,8 +189,12 @@ b {
 }
 
 h1 {
-  font-size: 1.6rem;
-  font-weight: var(--weight-bold);
+  font-size: 2rem;
+  line-height: 2.3rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-width: condensed;
+  text-align: center;
 }
 
 h2 {
@@ -86,10 +202,6 @@ h2 {
   margin-bottom: 0;
 }
 
-p,
-h2 {
-  font-size: var(--bodytext-size);
-}
 
 /* p {
   text-align: justify;
@@ -112,7 +224,7 @@ img {
 }
 
 a {
-  color: var(--color-accent);
+  color: var(--color-link);
   text-decoration: none;
 }
 
@@ -129,24 +241,16 @@ a {
   position: sticky;
   top: 0;
   z-index: 10;
-  /* background: var(--color-bg); */
   padding: 2rem 0 1rem;
-  /* top padding replaces the body's top margin */
   margin-bottom: 1rem;
 }
 
 .nav-button,
 .language-button {
   all: unset;
-  font-family: inherit;
-  /* font-family: Helvetica, sans-serif; */
-  /* font-family: 'XanhMono', 'Courier New', Courier, monospace; */
   font-size: var(--bodytext-size);
-  line-height: inherit;
   max-width: var(--text-width);
   cursor: pointer;
-  /* background-color: var(--color-bg); */
-
 }
 
 .nav-button:hover,
@@ -160,7 +264,7 @@ a:hover,
 .language-button {
   /* font-style: italic; */
   margin-left: auto;
-  /* color: var(--color-accent); */
+  /* color: var(--color-link); */
 }
 
 
@@ -200,22 +304,53 @@ html {
 .post-crew {
   list-style: none;
   margin-top: 0rem;
-  font-size: var(--bodytext-size);
+  font-size: var(--sans-size);
 
 }
 
-.post-cast .role,
-.post-crew .role {
-  /* color: var(--color-weak); */
-  /* font-style: italic; */
-  letter-spacing: -0.1rem;
+/* Credits: narrow screens, plain left-aligned "role - name" */
+.post-cast .dash,
+.post-crew .dash {
+  margin: 0 0.3em;
+}
+
+/* Wide screens: dashes line up on the left margin of the post text,
+   roles hang out to the left of it */
+@media (min-width: 90rem) {
+  .post-cast li,
+  .post-crew li {
+    position: relative;
+  }
+
+  .post-cast .role,
+  .post-crew .role {
+    position: absolute;
+    right: 100%;
+    margin-right: 0.3em;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .post-cast .dash,
+  .post-crew .dash {
+    margin: 0 0.3em 0 0;
+  }
 }
 
 .post-cast .name,
 .post-crew .name {
   /* color: var(--color-weak); */
   /* font-style: italic; */
-  font-weight: var(--weight-bold);
+  /* font-weight: var(--weight-bold); */
+}
+
+.post-cast .role,
+.post-crew .role {
+  /* color: var(--color-weak); */
+  font-width: condensed;
+  text-transform: uppercase;
+  /* font-style: italic; */
+  /* font-weight: var(--weight-bold); */
 }
 
 .post-credits {
@@ -226,6 +361,10 @@ html {
   font-size: var(--bodytext-size);
   cursor: pointer;
   list-style: none;
+}
+
+.post-credits summary p {
+  display: inline;
 }
 
 .post-cred-link-container {
@@ -276,12 +415,13 @@ html {
   /* margin-top: 0.6rem; */
   color: var(--color-weak);
 }
+
 .language-icon svg {
   stroke: var(--color-weak);
-  margin-top: 0.2rem;
+  margin-top: -0.1rem;
 }
 
-.props-and-lang{
+.props-and-lang {
   display: flex;
 }
 
@@ -294,9 +434,11 @@ html {
   flex-wrap: wrap;
   gap: 0 1rem;
   margin-top: 0.5rem;
-  letter-spacing: -0.07rem;
-  text-transform: uppercase;
-  font-weight: var(--weight-bold);
+  /* letter-spacing: -0.07rem; */
+  /* text-transform: uppercase; */
+  /* font-style: italic; */
+  /* font-weight: var(--weight-bold); */
+  font-width: condensed;
 
 }
 
