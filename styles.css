@@ -215,7 +215,7 @@ h2 {
 
 .facturatie-geg {
   color: var(--color-text);
-  margin-top: var(--bodytext-size);
+  /* margin-top: var(--bodytext-size); */
 }
 
 img {
