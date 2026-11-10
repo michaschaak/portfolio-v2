@@ -401,6 +401,10 @@ html {
   margin-bottom: 5rem;
 }
 
+.post-title a { 
+  color: inherit; 
+}
+
 .post-properties {
   display: flex;
   flex-wrap: wrap;

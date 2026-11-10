@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Melodica Soprano – Sebastiaan Distelmans</title>
+  <meta name="description" content="Dit werk werd eerst vertoond in quadrafonische opstelling tijdens de ‘Nacht van het Luisteren’ van VRT Radio 1 op het STUK in Leuven. Hier beluisterbaar is een stereo-downmix. Ik maakte het werk tijde">
+  <link rel="canonical" href="https://www.sebastiaandistelmans.be/werk/melodica-soprano/">
+  <meta property="og:type" content="article">
+  <meta property="og:locale" content="nl_BE">
+  <meta property="og:site_name" content="Sebastiaan Distelmans">
+  <meta property="og:title" content="Melodica Soprano">
+  <meta property="og:description" content="Dit werk werd eerst vertoond in quadrafonische opstelling tijdens de ‘Nacht van het Luisteren’ van VRT Radio 1 op het STUK in Leuven. Hier beluisterbaar is een stereo-downmix. Ik maakte het werk tijde">
+  <meta property="og:url" content="https://www.sebastiaandistelmans.be/werk/melodica-soprano/">
+  <meta property="og:image" content="https://www.sebastiaandistelmans.be/images/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#fff7ba">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+  <div class="content">
+    <nav class="navigation-container">
+      <button class="nav-button" data-tab="home"><img src="/images/hond-verylowreso.png" class="nav-icon"></button>
+      <button class="nav-button active" data-tab="werk">
+        <p class="p" data-nl="werk" data-en="work">werk</p>
+      </button>
+      <button class="nav-button" data-tab="info">
+        <p>info</p>
+      </button>
+      <button class="language-button" onclick="toggleLang()">
+        <p class="p" data-nl="EN" data-en="NL">english</p>
+      </button>
+    </nav>
+    <div class="page-container">
+      <div data-lang="nl"><div class="post-container">
+  <div class="post-toptext">
+    <h1 class="post-title">Melodica Soprano</h1>
+    <div class="props-and-lang">
+      <span class="post-properties"><span><p>15 december 2025</p></span><span><p>geluidskunst</p></span><span><p>compositie</p></span></span>
+      <span class="lang-placed"></span>
+    </div>
+    <div class="post-more-info">
+      <p>Dit werk werd eerst vertoond in quadrafonische opstelling tijdens de ‘Nacht van het Luisteren’ van VRT Radio 1 op het STUK in Leuven. Hier beluisterbaar is een stereo-downmix. Ik maakte het werk tijdens een residentieweek in het STUK onder begeleiding van Aurélie Nyirabikali Lierman en Jeroen Vandesande.</p>
+      <div class="post-cred-link-container">
+        
+        <details class="post-credits"><summary><p>crew</p></summary><ul class="post-crew"><li><span class="role">componist, maker</span><span class="dash">-</span><span class="name">Sebastiaan Distelmans</span></li><li><span class="role">docent</span><span class="dash">-</span><span class="name">Aurélie Nyirabikali Lierman</span></li><li><span class="role">docent</span><span class="dash">-</span><span class="name">Jeroen Vandesande</span></li></ul></details>
+        
+      </div>
+    </div>
+  </div>
+  
+</div></div>
+      <div data-lang="en" hidden><div class="post-container">
+  <div class="post-toptext">
+    <h1 class="post-title">Melodica Soprano</h1>
+    <div class="props-and-lang">
+      <span class="post-properties"><span><p>15 December 2025</p></span><span><p>sound art</p></span><span><p>composition</p></span></span>
+      <span class="lang-placed"></span>
+    </div>
+    <div class="post-more-info">
+      <p>This piece was first presented in a quadraphonic setup during VRT Radio 1’s ‘Nacht van het Luisteren’ (Night of Listening) at STUK in Leuven. What you can listen to here is a stereo downmix. I made the piece during a residency week at STUK, under the guidance of Aurélie Nyirabikali Lierman and Jeroen Vandesande.</p>
+      <div class="post-cred-link-container">
+        
+        <details class="post-credits"><summary><p>crew</p></summary><ul class="post-crew"><li><span class="role">composer, maker</span><span class="dash">-</span><span class="name">Sebastiaan Distelmans</span></li><li><span class="role">supervisor</span><span class="dash">-</span><span class="name">Aurélie Nyirabikali Lierman</span></li><li><span class="role">supervisor</span><span class="dash">-</span><span class="name">Jeroen Vandesande</span></li></ul></details>
+        
+      </div>
+    </div>
+  </div>
+  
+</div></div>
+    </div>
+    <div class="footer"><p>Sebastiaan Distelmans, 2026</p></div>
+  </div>
+  <script>
+    const titles = { nl: "Melodica Soprano", en: "Melodica Soprano" };
+    let lang = "nl";
+    try { lang = localStorage.getItem("lang") || "nl"; } catch (e) {}
+    function apply() {
+      document.documentElement.lang = lang;
+      document.title = titles[lang] + " – Sebastiaan Distelmans";
+      document.querySelectorAll("[data-lang]").forEach(el => { el.hidden = el.dataset.lang !== lang; });
+      document.querySelectorAll("[data-en]").forEach(el => { el.textContent = lang === "en" ? el.dataset.en : el.dataset.nl; });
+    }
+    function toggleLang() {
+      lang = lang === "nl" ? "en" : "nl";
+      try { localStorage.setItem("lang", lang); } catch (e) {}
+      apply();
+    }
+    apply();
+    document.querySelectorAll("[data-tab]").forEach(btn => {
+      btn.addEventListener("click", () => { location.href = "/#" + btn.dataset.tab; });
+    });
+  </script>
+</body>
+</html>
