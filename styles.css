@@ -206,7 +206,7 @@ h2 {
 /* p {
   text-align: justify;
 } */
-@media (max-width: 45rem) {
+@media (max-width: 70rem) {
   p {
     text-align: justify;
   }
@@ -317,6 +317,7 @@ html {
 /* Wide screens: dashes line up on the left margin of the post text,
    roles hang out to the left of it */
 @media (min-width: 90rem) {
+
   .post-cast li,
   .post-crew li {
     position: relative;
@@ -395,14 +396,41 @@ html {
   margin-right: 2rem;
 }
 
+/* Home button: stack both icons in the same spot, swap on hover */
+.nav-home {
+  display: grid;
+  /* needed because .nav-button uses `all: unset` */
+}
+
+.nav-home .nav-icon {
+  grid-area: 1 / 1;
+  /* both images occupy the same cell */
+  justify-self: start;
+  transition: opacity 0.15s ease;
+}
+
+.nav-home .nav-icon-hover {
+  opacity: 0;
+}
+
+.nav-home:hover .nav-icon-default,
+.nav-home:focus-visible .nav-icon-default {
+  opacity: 0;
+}
+
+.nav-home:hover .nav-icon-hover,
+.nav-home:focus-visible .nav-icon-hover {
+  opacity: 1;
+}
+
 /* PORTFOLIO POSTS */
 .post-container {
   max-width: var(--text-width);
   margin-bottom: 5rem;
 }
 
-.post-title a { 
-  color: inherit; 
+.post-title a {
+  color: inherit;
 }
 
 .post-properties {
@@ -447,6 +475,46 @@ html {
   font-width: condensed;
 
 }
+
+/* Thumbnail floated left of the info text, text wraps around it */
+.post-more-info {
+  display: flow-root;   /* contains the float so it can't spill into the next post */
+}
+
+/* Thumbnail + info row */
+.post-info-row {
+  display: flow-root;   /* narrow screens: contains the float */
+}
+
+.post-thumb {
+  float: left;          /* narrow screens: text wraps around it */
+  width: auto;
+  height: 3.7rem;
+  margin: 0.3rem 0.5rem 0 0;
+}
+
+/* Wide screens: thumb hangs in the left margin, content stays centered */
+
+@media (min-width: 70rem) {
+  .post-more-info {
+    position: relative;
+  }
+
+  .post-thumb {
+    position: absolute;
+    top: 0.3rem;
+    left: 0;
+    transform: translateX(calc(-100% - 0.75rem));
+    float: none;
+    width: auto;
+    height: 3.6rem;
+    max-width: none;
+    margin: 0;
+  }
+}
+
+
+
 
 .footer {
   position: fixed;

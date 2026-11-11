@@ -120,7 +120,12 @@
                 "lastname": "Sterckx"
             }
         ],
-        "images": []
+        "images": [
+            {
+                "file": "posts/arno-schaak.jpg",
+                "alt": ""
+            }
+        ]
     },
     {
         "id": "gelmelslot",
@@ -173,7 +178,7 @@
         ],
         "images": [
             {
-                "file": "",
+                "file": "posts/gelmelslot.jpg",
                 "alt": ""
             }
         ]

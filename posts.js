@@ -64,8 +64,14 @@ function renderPosts() {
                 .map(l => `<a href="${l.url}" target="_blank"><p>${l.label || l.url}</p></a>`)
                 .join("");
 
-            const images = (p.images || [])
-                .filter(i => i.file)
+            // First image becomes a floated thumbnail, any others render below the post
+            const [thumb, ...restImages] = (p.images || []).filter(i => i.file);
+
+            const thumbHtml = thumb
+                ? `<img class="post-thumb" src="images/${thumb.file}" alt="${thumb.alt || ""}">`
+                : "";
+
+            const images = restImages
                 .map(i => `<img src="images/${i.file}" alt="${i.alt || ""}">`)
                 .join("");
 
@@ -78,6 +84,7 @@ function renderPosts() {
             <span class="lang-placed">${langBlock}</span>
             </div>
               <div class="post-more-info">
+${thumbHtml}              
 ${info}
               <div class="post-cred-link-container">
 ${creditList(p.cast, "post-cast", "cast")}
