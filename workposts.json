@@ -123,7 +123,7 @@
         "images": [
             {
                 "file": "posts/arno-schaak.jpg",
-                "alt": ""
+                "alt": "De lotgevallen van ene Arno Schaak thumbnail"
             }
         ]
     },
@@ -133,7 +133,8 @@
         "date": "2026-06-13",
         "tag": "gevangenis Hoogstraten",
         "genre": [
-            "audiodocumentaire"
+            "podcast",
+            "documentaire"
         ],
         "taal": "Nederlands",
         "info": [
@@ -144,11 +145,12 @@
             "title": "The Guards of Gelmel Castle",
             "tag": "Hoogstraten Prison",
             "genre": [
-                "audio documentary"
+                "podcast",
+                "documentary"
             ],
             "taal": "Dutch",
             "info": [
-                "Podcast creator Wederik De Backer and intern Bas Distelmans spoke with staff members, volunteers, and inmates. Focusing on five central themes—the masonry training program, the ‘Gelmelboys’ soccer team, the core group, the women’s wing, and the farm—they share stories that are unique to the prison. Volunteer Lut, who organizes activities in the women’s wing, had the honor of serving as the podcast’s host.",
+                "Podcast creator Wederik De Backer and intern Bas Distelmans spoke with staff members, volunteers, and inmates. Focusing on five central themes—the masonry training program, the ‘Gelmelboys’ football team, the core group, the women’s wing, and the farm—they share stories that are unique to the prison. Volunteer Lut, who organizes activities in the women’s wing, had the honor of serving as the podcast’s host.",
                 "<i>The Guards of Gelmel Castle</i> premiered at the Hoogstraten prison and is available on Spotify."
             ]
         },
@@ -198,8 +200,8 @@
             "title": "Alpha",
             "tag": "internship",
             "genre": [
-                "podcast,",
-                "documentary,"
+                "podcast",
+                "documentary"
             ],
             "taal": "Dutch",
             "info": "During an internship with Wederik De Backer, I worked on <i>Alpha,</i> a true-crime podcast by Lieselot Mariën and Wederik. I did editing, sound recording, background acting, and sound design for the podcast, and served as sound engineer for the accompanying short film. <i>Alpha,</i> is a production of NTR and Autres Directions."
@@ -234,8 +236,8 @@
         ],
         "images": [
             {
-                "file": "",
-                "alt": ""
+                "file": "posts/alpha.png",
+                "alt": "alpha thumbnail"
             }
         ]
     },
@@ -284,7 +286,12 @@
                 "lastname": "Vandesande"
             }
         ],
-        "images": []
+        "images": [
+            {
+                "file": "posts/melodica-soprano.jpg",
+                "alt": "melodica soprano thumbnail"
+            }
+        ]
     },
     {
         "id": "broekzenne",
@@ -383,6 +390,11 @@
                 "lastname": "Haekens"
             }
         ],
-        "images": []
+        "images": [
+            {
+                "file": "posts/broekzenne.jpg",
+                "alt": "broekzenne thumbnail"
+            }
+        ]
     }
 ]

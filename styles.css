@@ -316,7 +316,7 @@ html {
 
 /* Wide screens: dashes line up on the left margin of the post text,
    roles hang out to the left of it */
-@media (min-width: 90rem) {
+@media (min-width: 70rem) {
 
   .post-cast li,
   .post-crew li {
