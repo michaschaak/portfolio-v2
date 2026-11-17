@@ -68,7 +68,9 @@ function renderPosts() {
             const [thumb, ...restImages] = (p.images || []).filter(i => i.file);
 
             const thumbHtml = thumb
-                ? `<img class="post-thumb" src="images/${thumb.file}" alt="${thumb.alt || ""}">`
+                ? `<a class="post-thumb-link" href="/werk/${raw.id}/">
+                <img class="post-thumb" src="images/${thumb.file}" alt="${thumb.alt || ""}">
+            </a>`
                 : "";
 
             const images = restImages

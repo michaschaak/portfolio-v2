@@ -493,6 +493,10 @@ html {
   margin: 0.3rem 0.5rem 0 0;
 }
 
+.post-thumb-link:hover .post-thumb {
+  opacity: 50%;
+}
+
 /* Wide screens: thumb hangs in the left margin, content stays centered */
 
 @media (min-width: 70rem) {
